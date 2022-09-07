@@ -1,0 +1,57 @@
+.red {
+    color: red;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Arial, helvetica, sans-serif;
+    font-style: italic;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.relative {
+    position: relative;
+    left: 200px;
+}
+
+.absolute {
+    position: absolute;
+    top: 200px;
+}
+
+h3 {
+    padding: 10px;
+    background-color: #aaaa;
+    margin: 0;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    flex-grow: 1;
+}
+
+.second {
+    flex-grow: 2;
+}
+
+.third {
+    flex-grow: 3;
+}
